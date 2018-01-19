@@ -1,0 +1,21 @@
+[fit]
+postfile = /Users/jteske/Documents/postdoc/PFS/HIP115752/hip115752/hip115752_post_obj.pkl
+run = True
+
+[mcmc]
+run = True
+chainfile = /Users/jteske/Documents/postdoc/PFS/HIP115752/hip115752/hip115752_chains.csv.tar.bz2
+summaryfile = /Users/jteske/Documents/postdoc/PFS/HIP115752/hip115752/hip115752_post_summary.csv
+nwalkers = 50
+postfile = /Users/jteske/Documents/postdoc/PFS/HIP115752/hip115752/hip115752_post_obj.pkl
+nsteps = 10000
+
+[plot]
+rv_plot = /Users/jteske/Documents/postdoc/PFS/HIP115752/hip115752/hip115752_rv_multipanel.pdf
+corner_plot = /Users/jteske/Documents/postdoc/PFS/HIP115752/hip115752/hip115752_corner.pdf
+derived_plot = /Users/jteske/Documents/postdoc/PFS/HIP115752/hip115752/hip115752_corner_derived_pars.pdf
+
+[derive]
+chainfile = /Users/jteske/Documents/postdoc/PFS/HIP115752/hip115752/hip115752_derived.csv.tar.bz2
+run = True
+
